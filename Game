@@ -1,0 +1,127 @@
+Random Python Program Generator
+This page is powered by pyfuzz, a program generator I have written to test the JIT compiler of Unladen Swallow.
+
+Reload to generate another program!
+
+def func5(arg21, arg22):
+    def func6(arg23, arg24):
+        result = arg24 | arg22 ^ (316120506 ^ ((572 ^ (arg22 & arg24 & 19 ^ arg22)) - arg24)) + arg21
+        return result
+    var25 = func6(arg22, arg21)
+    var29 = func7(arg22, var25)
+    var34 = func8(arg21, var25)
+    def func9(arg35, arg36):
+        var37 = arg35 & (arg22 & 480335216) & -1485183840
+        var38 = var29 + var25 | (var37 & var37)
+        var39 = (var38 ^ var29) + var25 & var34
+        var40 = arg36 & arg21
+        if var40 < var34:
+            var41 = ((var25 & 757) - 251725352) & arg35
+        else:
+            var41 = ((var29 + var29) - arg36) ^ var38
+        var42 = (arg22 + var37) | var29 ^ var38
+        var43 = var39 | var25
+        var44 = var29 & arg22
+        var45 = var42 ^ (arg36 ^ -777)
+        var46 = var43 | var25 + (var38 ^ arg35)
+        var47 = var39 ^ arg36
+        var48 = (var46 & var42) | 536 | var34
+        result = var29 & var45
+        return result
+    var49 = func9(var29, var25)
+    var50 = var49 ^ 656
+    var51 = var50 - var34 | -213
+    var52 = (var29 | var25 | var50) - 49
+    var53 = var52 + 97481494
+    var54 = var52 ^ var25 & -4 - 118370491
+    var55 = (var49 ^ var34 & -285) & arg22
+    var56 = var25 + var49 | var29 | var29
+    var57 = var53 - var25 - var29 + 790
+    if arg21 < arg22:
+        var58 = var54 | (var29 & arg21)
+    else:
+        var58 = arg21 | (var55 & var29 + arg22)
+    var59 = var53 ^ (arg22 & var25) ^ var25
+    var60 = 784664293 + var50
+    var61 = var60 & (arg22 - var51 - var25)
+    if var29 < var54:
+        var62 = (var34 + (var55 + arg22)) - var60
+    else:
+        var62 = (var52 + var54 - var50) + arg22
+    var63 = var50 - var52
+    if arg22 < var25:
+        var64 = var57 & arg21
+    else:
+        var64 = var61 & var63
+    var65 = var55 | -611
+    var66 = var55 | ((var57 | var63) - var50)
+    var67 = var49 & (var63 - var53 & var65)
+    var68 = var57 | var53
+    var69 = var60 | var61 - var54 + var59
+    var70 = var51 ^ ((var63 & var66) - var65)
+    var71 = -824 + (var51 - arg22 | var70)
+    var72 = arg21 ^ -609
+    result = (var50 & (var56 - (var72 - var67 & ((var60 - var56) + var61) - var69) - var63 ^ arg21)) ^ arg22 - var63
+    return result
+def func8(arg30, arg31):
+    var32 = 0
+    for var33 in xrange(47):
+        var32 += arg31 | arg31 ^ var33
+    return var32
+def func7(arg26, arg27):
+    var28 = (-654225850 | (((347 ^ -929) & (-728777103 | -1278860866)) | arg27 | -745348481 & arg26 ^ arg26 - -929)) + arg27 - arg26
+    result = ((((var28 & -1831999464) - (arg26 & arg26)) ^ ((arg26 ^ (arg27 - arg27) ^ arg27) | arg26 + 1313940045)) + -786595906) + arg26
+    return result
+def func2(arg4, arg5):
+    var9 = func3(arg5, arg4)
+    var10 = arg5 - var9 & arg5 & arg5
+    var11 = (-1855018251 & arg4 | 1395115048) & var10
+    var12 = var11 & (var10 - var11) + var11
+    var13 = ((arg5 - arg5) - var12) + arg4
+    var14 = var10 + var13 & -1325476151
+    var15 = arg4 | arg5 | arg4 | var11
+    var16 = (var15 & var10) | var11
+    var17 = var13 & (var12 ^ (var9 & var16))
+    var18 = -884 - arg4
+    var19 = var17 - arg4 + (var13 + var11)
+    var20 = (var11 ^ 197552356 ^ var18) & var13
+    result = var10 - -169
+    return result
+def func1(arg1, arg2):
+    var3 = -1101418818 + ((47 & (((arg1 & (985 & arg2 | -264 ^ arg2)) + 207) - ((190 ^ -439 & arg2 + -19 + -100 ^ arg1 - arg2) + -633702146) ^ arg1 - arg1) + arg2 + arg2) + -704) - arg2
+    result = -1052567915 - -920
+    return result
+def func3(arg6, arg7):
+    closure = [0]
+    def func4(acc, rest):
+        var8 = acc & 0
+        closure[0] += var8
+        if acc == 0:
+            return var8
+        else:
+            result = func4(acc - 1, var8)
+            return result
+    result = func4(10, 0)
+    return result
+if __name__ == "__main__":
+    print 'prog_size: 0'
+    print 'func_number: 2'
+    print 'arg_number: 4'
+    for i in xrange(25000):
+        x = 5
+        x = func1(x, i)
+        print x,
+    print 'prog_size: 1'
+    print 'func_number: 5'
+    print 'arg_number: 21'
+    for i in xrange(25000):
+        x = 5
+        x = func2(x, i)
+        print x,
+    print 'prog_size: 5'
+    print 'func_number: 10'
+    print 'arg_number: 73'
+    for i in xrange(25000):
+        x = 5
+        x = func5(x, i)
+        print x,
